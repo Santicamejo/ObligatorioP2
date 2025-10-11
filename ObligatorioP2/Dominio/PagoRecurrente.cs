@@ -42,7 +42,7 @@
 
         public override string ToString()
         {
-            return base.ToString() + $"Desde: {Desde.ToShortDateString()} Hasta {Hasta.ToShortDateString()}";
+            return base.ToString() + $"---- Cuantos pagos quedan ----";
         }
 
     }

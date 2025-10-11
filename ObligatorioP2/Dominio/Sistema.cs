@@ -74,10 +74,10 @@
         {
 
             // ---- EQUIPOS ----
-            Equipo e1 = new Equipo("Equipo Administrativo");
-            Equipo e2 = new Equipo("Equipo Soporte");
-            Equipo e3 = new Equipo("Equipo Interfaz");
-            Equipo e4 = new Equipo("Equipo Limpieza");
+            Equipo e1 = new Equipo("Administrativo");
+            Equipo e2 = new Equipo("Soporte");
+            Equipo e3 = new Equipo("Interfaz");
+            Equipo e4 = new Equipo("Limpieza");
 
             AgregarEquipo(e1);
             AgregarEquipo(e2);
@@ -213,36 +213,17 @@
             _usuarios.Add(nuevoUsuario);
         }
 
-        public void AltaUsuario()
+        public void AltaUsuario(Usuario usuarioNuevo)
         {
-            Console.Clear();
-            Console.WriteLine("=== REGISTRAR NUEVO USUARIO ===\n");
-
-            Console.WriteLine("Ingresar nombre");
-            string nombre = Console.ReadLine();
-
-            Console.WriteLine("Ingresar apellido");
-            string apellido = Console.ReadLine();
-
-            Console.WriteLine("Crear una contraseña de mínimo 8 carácteres");
-            string password = Console.ReadLine();
-
-            // pruebas
-            Equipo equipo = new Equipo("Equipo IT");
-            DateTime trabajaDesde = DateTime.Now;
-
-            //no le paso por parametros el email, ya que se auto-genera
-            Usuario nuevoUsuario = new Usuario(nombre, apellido, password, equipo, trabajaDesde);
-
             try
             {
-                nuevoUsuario.Validar();
-                AgregarUsuario(nuevoUsuario);
+                usuarioNuevo.Validar();
+                AgregarUsuario(usuarioNuevo);
                 Console.WriteLine("\n=== USUARIO CREADO CON ÉXITO ===");
             }
-            catch(Exception unaE)
+            catch(Exception ex)
             {
-                Console.WriteLine(unaE.Message);
+                Console.WriteLine(ex.Message);
             }
         }
 
@@ -259,6 +240,7 @@
  
         public List<Usuario> GetUsuarios()
         {
+            //Esto devuelve una copia de la lista original 
             return new List<Usuario>(_usuarios);
         }
 
@@ -267,7 +249,7 @@
             List<Pago> listado = new List<Pago>();
             foreach (Pago unP in _pagos)
             {
-                if(unP.GetEmailUsuario() == EmailIngresado.ToLower())
+                if(unP.GetEmailUsuario().ToLower() == EmailIngresado.ToLower())
                 {
                     listado.Add(unP);
                 }
@@ -278,11 +260,31 @@
 
         public string GenerarEmail(string nombre, string apellido)
         {
-            string nombreCortado = nombre.Substring(0, Math.Min(3, nombre.Length)).ToLower();
-            string apellidoCortado = apellido.Substring(0, Math.Min(3, apellido.Length)).ToLower();
-            string nombreDeUsuario = nombreCortado + apellidoCortado;
 
-            string extension = "@laempresa.com";
+            string nombreCortado = "";
+            string apellidoCortado = "";
+
+            int largo = 3;
+            if (nombre.Length < largo) 
+                largo = nombre.Length;
+
+            for (int i = 0; i<largo; i++)
+            {
+                nombreCortado += nombre[i];
+            }
+
+            largo = 3;
+            if (apellido.Length < largo) 
+                largo = apellido.Length;
+
+            for (int i = 0; i<largo; i++)
+            {
+                apellidoCortado += apellido[i];
+            }
+
+            string nombreDeUsuario = nombreCortado.ToLower() + apellidoCortado.ToLower();
+
+            string extension = "@laEmpresa.com";
 
             string emailCreado = nombreDeUsuario + extension;
 
@@ -305,11 +307,10 @@
                     }
                 }
             } while (existe);
+
             return emailCreado;
+
         }
-
-
-
 
     }
 }

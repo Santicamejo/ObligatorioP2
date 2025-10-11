@@ -2,7 +2,7 @@
 {
     public abstract class Pago
     {
-        private static int s_id = 1;
+        private static int s_id = 0;
 
         private int _id;
         private MetodoPago _metodoPago;
@@ -66,7 +66,7 @@
 
         public override string ToString()
         {
-            return $"Pago | Método: {MetodoPago} | TipoGasto: {TipoGasto} | Usuario: {Usuario} | Descripción: {Descripcion} | Monto: ${Monto} ";
+            return $"Pago | {Id} | Método: {MetodoPago} ";
         }
 
     }

@@ -15,10 +15,10 @@
         {
             return 123;
         }
-        public override string ToString()
-        {
-            return base.ToString() + $"Fecha: {Fecha.ToShortDateString()}";
-        }
+        //public override string ToString()
+        //{
+        //    return base.ToString() + $"Fecha: {Fecha.ToShortDateString()}";
+        //}
 
     }
 }
