@@ -20,17 +20,17 @@
             get { return _id; }
             set { _id = value; }
         }
-        public MetodoPago MetodoPagoP
+        public MetodoPago MetodoPago
         {
             get { return _metodoPago; }
             set { _metodoPago = value; }
         }
-        public TipoGasto TipoGastoP
+        public TipoGasto TipoGasto
         {
             get { return _tipoGasto; }
             set { _tipoGasto = value; }
         }
-        public Usuario UsuarioP
+        public Usuario Usuario
         {
             get { return _usuario; }
             set { _usuario = value; }
@@ -46,7 +46,28 @@
             set { _monto = value; }
         }
 
+        public Pago(MetodoPago metodoPago, TipoGasto tipoGasto, Usuario usuario, string descripcion, decimal monto)
+        {
+            Id = ++s_Id;
+            MetodoPago = metodoPago;
+            TipoGasto = tipoGasto;
+            Usuario = usuario;
+            Descripcion = descripcion;
+            Monto = monto;
+        }
+
+        //ToDo
+        public string GetEmailUsuario()
+        {
+            return this.Usuario.Email;
+        }
+
         public abstract decimal CalcularMontoTotal(Pago pago);
+
+        public override string ToString()
+        {
+            return $"Pago | Método: {MetodoPago} | TipoGasto: {TipoGasto} | Usuario: {Usuario} | Descripción: {Descripcion} | Monto: ${Monto} ";
+        }
 
     }
 

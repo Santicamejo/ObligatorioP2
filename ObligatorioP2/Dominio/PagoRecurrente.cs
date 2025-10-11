@@ -3,40 +3,33 @@
     public class PagoRecurrente : Pago
     {
 
-        private DateTime _fecha1;
-        private DateTime _fecha2;
+        private DateTime _desde;
+        private DateTime _hasta;
 
-        public DateTime Fecha1
+        public DateTime Desde
         {
-            get { return _fecha1; }
-            set { _fecha1 = value; }
+            get { return _desde; }
+            set { _desde = value; }
         }
-        public DateTime Fecha2
+        public DateTime Hasta
         {
-            get { return _fecha2; }
-            set { _fecha2 = value; }
-        }
-
-        public PagoRecurrente(MetodoPago metodoPago, TipoGasto tipoGasto, Usuario usuario, string descripcion, decimal monto, DateTime fecha1, DateTime fecha2)
-        {
-            this.Id = s_Id++;
-            this.MetodoPagoP = metodoPago;
-            this.TipoGastoP = tipoGasto;
-            this.UsuarioP = usuario;
-            this.Descripcion = descripcion;
-            this.Monto = monto;
-            this.Fecha1 = fecha1;
-            this.Fecha2 = fecha2;
+            get { return _hasta; }
+            set { _hasta = value; }
         }
 
+        public PagoRecurrente(MetodoPago metodoPago, TipoGasto tipoGasto, Usuario usuario, string descripcion, decimal monto, DateTime desde, DateTime hasta) : base(metodoPago, tipoGasto, usuario, descripcion, monto)
+        {
+            Desde = desde;
+            Hasta = hasta;
+        }
 
         public override decimal CalcularMontoTotal(Pago pago)
         {
-            if (Fecha1 > Fecha2)
+            if (Desde > Hasta)
             {
-                DateTime aux = Fecha1;
-                Fecha1 = Fecha2;
-                Fecha2 = aux;
+                DateTime aux = Desde;
+                Desde = Hasta;
+                Hasta = aux;
             }
             else
             {
@@ -45,6 +38,11 @@
 
             return 123;
 
+        }
+
+        public override string ToString()
+        {
+            return base.ToString() + $"Desde: {Desde.ToShortDateString()} Hasta {Hasta.ToShortDateString()}";
         }
 
     }

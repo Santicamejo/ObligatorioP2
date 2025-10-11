@@ -22,7 +22,7 @@ namespace ObligatorioP2
                         break;
                     case 2:
                         Cargando();
-                        MostrarEquipos();
+                        MostrarPagos();
                         Continuar();
                         break;
                     case 3:
@@ -49,6 +49,7 @@ namespace ObligatorioP2
             Console.Clear();
         }
 
+        //NO SE USA
         private static void MostrarEquipos()
         {
             Console.Clear();
@@ -77,7 +78,7 @@ namespace ObligatorioP2
             if (usuarios.Count > 0)
             {
                 foreach (Usuario unU in usuarios)
-                    Console.WriteLine(unU.ToString());
+                    Console.WriteLine(unU.ToString() + "\n");
             }
             else
             {
@@ -86,7 +87,25 @@ namespace ObligatorioP2
         }
 
 
+        private static void MostrarPagos()
+        {
+            Console.Clear();
+            Console.WriteLine("Ingresa un Email:");
+            string EmailIngresado = Console.ReadLine();
+            Console.WriteLine("=== PAGOS ===");
 
+            List<Pago> pagosCliente = sistema.GetPagos(EmailIngresado);
+
+            if (pagosCliente.Count > 0)
+            {
+                foreach (Pago unU in pagosCliente)
+                    Console.WriteLine(unU.ToString() + "\n");
+            }
+            else
+            {
+                Console.WriteLine($"No existen pagos para el usuario {EmailIngresado} en el sistema");
+            }
+        }
 
         //Funcion For fun
         static void Cargando(int milisegundos = 1000)

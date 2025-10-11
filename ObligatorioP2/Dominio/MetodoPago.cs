@@ -6,4 +6,5 @@
         DEBITO,
         EFECTIVO
     }
+
 }

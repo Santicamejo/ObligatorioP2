@@ -11,5 +11,11 @@
             Nombre = nombre;
             Descripcion = descripcion;
         }
+
+        public override string ToString()
+        {
+            return $"{Descripcion}";
+        }
+
     }
 }

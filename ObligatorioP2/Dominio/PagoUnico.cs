@@ -5,21 +5,19 @@
         private DateTime _fecha;
         public DateTime Fecha { get { return _fecha; } set { _fecha = value; } }
 
-        public PagoUnico(MetodoPago metodoPago, TipoGasto tipoGasto, Usuario usuario, string descripcion, decimal monto, DateTime fecha)
+        public PagoUnico(MetodoPago metodoPago, TipoGasto tipoGasto, Usuario usuario, string descripcion, decimal monto, DateTime fecha) : base(metodoPago, tipoGasto, usuario, descripcion, monto)
         {
-            this.Id = s_Id++;
-            this.MetodoPagoP = metodoPago;
-            this.TipoGastoP = tipoGasto;
-            this.UsuarioP = usuario;
-            this.Descripcion = descripcion;
-            this.Monto = monto;
-            this.Fecha = fecha;
+            Fecha = fecha;
         }
 
 
         public override decimal CalcularMontoTotal(Pago pago)
         {
             return 123;
+        }
+        public override string ToString()
+        {
+            return base.ToString() + $"Fecha: {Fecha.ToShortDateString()}";
         }
 
     }
