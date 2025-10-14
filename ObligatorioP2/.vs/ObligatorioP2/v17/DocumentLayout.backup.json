@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioP2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5821B40C-3163-46F7-805E-3E8E90CB4A56}|ObligatorioP2\\ObligatorioP2.csproj|c:\\users\\sm116\\obligatoriop2\\obligatoriop2\\obligatoriop2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5821B40C-3163-46F7-805E-3E8E90CB4A56}|ObligatorioP2\\ObligatorioP2.csproj|solutionrelative:obligatoriop2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\obligatoriop2\\obligatoriop2\\dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\obligatoriop2\\obligatoriop2\\dominio\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\obligatoriop2\\obligatoriop2\\dominio\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\obligatoriop2\\obligatoriop2\\dominio\\dominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\dominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5821B40C-3163-46F7-805E-3E8E90CB4A56}|ObligatorioP2\\ObligatorioP2.csproj|c:\\users\\sm116\\obligatoriop2\\obligatoriop2\\obligatoriop2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5821B40C-3163-46F7-805E-3E8E90CB4A56}|ObligatorioP2\\ObligatorioP2.csproj|solutionrelative:obligatoriop2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\obligatoriop2\\obligatoriop2\\dominio\\metodopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\metodopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\obligatoriop2\\obligatoriop2\\dominio\\pagorecurrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\pagorecurrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\obligatoriop2\\obligatoriop2\\dominio\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +35,8 @@
       "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\pagounico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\obligatoriop2\\obligatoriop2\\dominio\\pagorecurrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\pagorecurrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\obligatoriop2\\obligatoriop2\\dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\obligatoriop2\\obligatoriop2\\dominio\\metodopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\metodopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\obligatoriop2\\obligatoriop2\\dominio\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\obligatoriop2\\obligatoriop2\\dominio\\tipogasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -56,7 +60,7 @@
               "RelativeDocumentMoniker": "Dominio\\Sistema.cs",
               "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioP2\\Dominio\\Sistema.cs",
               "RelativeToolTip": "Dominio\\Sistema.cs",
-              "ViewState": "AgIAAPwAAAAAAAAAAAAqwBwBAABZAAAAAAAAAA==",
+              "ViewState": "AgIAALwAAAAAAAAAAAAqwNwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-09T23:56:01.617Z",
               "IsPinned": true,
@@ -64,13 +68,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioP2\\ObligatorioP2\\Program.cs",
               "RelativeDocumentMoniker": "ObligatorioP2\\Program.cs",
-              "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioP2\\ObligatorioP2\\Program.cs*",
-              "RelativeToolTip": "ObligatorioP2\\Program.cs*",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAIwFMAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioP2\\ObligatorioP2\\Program.cs",
+              "RelativeToolTip": "ObligatorioP2\\Program.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAcwLIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-09T23:52:31.745Z",
               "IsPinned": true,
@@ -91,53 +95,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Dominio.csproj",
+              "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioP2\\Dominio\\Dominio.csproj",
+              "RelativeDocumentMoniker": "Dominio\\Dominio.csproj",
+              "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioP2\\Dominio\\Dominio.csproj",
+              "RelativeToolTip": "Dominio\\Dominio.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-13T18:26:06.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Pago.cs",
               "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioP2\\Dominio\\Pago.cs",
               "RelativeDocumentMoniker": "Dominio\\Pago.cs",
               "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioP2\\Dominio\\Pago.cs",
               "RelativeToolTip": "Dominio\\Pago.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAqwEIAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAkwEQAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T23:54:34.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T23:54:34.27Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioP2\\Dominio\\Usuario.cs",
               "RelativeDocumentMoniker": "Dominio\\Usuario.cs",
               "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioP2\\Dominio\\Usuario.cs",
               "RelativeToolTip": "Dominio\\Usuario.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAuwD8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwDQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-09T23:56:29.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "TipoGasto.cs",
               "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioP2\\Dominio\\TipoGasto.cs",
               "RelativeDocumentMoniker": "Dominio\\TipoGasto.cs",
               "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioP2\\Dominio\\TipoGasto.cs",
               "RelativeToolTip": "Dominio\\TipoGasto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-09T23:56:14.8Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "PagoUnico.cs",
               "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioP2\\Dominio\\PagoUnico.cs",
               "RelativeDocumentMoniker": "Dominio\\PagoUnico.cs",
               "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioP2\\Dominio\\PagoUnico.cs",
               "RelativeToolTip": "Dominio\\PagoUnico.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA1wBQAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T23:55:30.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T23:55:30.885Z"
             },
             {
               "$type": "Document",
@@ -147,36 +162,34 @@
               "RelativeDocumentMoniker": "Dominio\\PagoRecurrente.cs",
               "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioP2\\Dominio\\PagoRecurrente.cs",
               "RelativeToolTip": "Dominio\\PagoRecurrente.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBUAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T23:55:05.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T23:55:05.502Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "MetodoPago.cs",
               "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioP2\\Dominio\\MetodoPago.cs",
               "RelativeDocumentMoniker": "Dominio\\MetodoPago.cs",
               "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioP2\\Dominio\\MetodoPago.cs",
               "RelativeToolTip": "Dominio\\MetodoPago.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-09T23:54:15.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Equipo.cs",
               "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioP2\\Dominio\\Equipo.cs",
               "RelativeDocumentMoniker": "Dominio\\Equipo.cs",
               "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioP2\\Dominio\\Equipo.cs",
               "RelativeToolTip": "Dominio\\Equipo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T23:53:41.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T23:53:41.798Z"
             }
           ]
         },

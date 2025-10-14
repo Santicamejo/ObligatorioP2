@@ -1,8 +1,9 @@
-﻿namespace Dominio
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace Dominio
 {
     public class Sistema
     {
-
         private List<Usuario> _usuarios;
         private List<Equipo> _equipos;
         private List<Pago> _pagos;
@@ -32,7 +33,7 @@
         }
 
         #endregion
-
+         
         public void Menu()
         {
             Console.WriteLine();
@@ -240,7 +241,7 @@
  
         public List<Usuario> GetUsuarios()
         {
-            //Esto devuelve una copia de la lista original 
+            //Esto devuelve una copia de la lista original
             return new List<Usuario>(_usuarios);
         }
 
@@ -309,7 +310,6 @@
             } while (existe);
 
             return emailCreado;
-
         }
 
     }

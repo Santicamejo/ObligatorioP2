@@ -62,10 +62,10 @@
                 throw new Exception("La contraseña no puede ser vacía.");
 
             if (Equipo == null)
-                throw new Exception("Debe ingresar un nombre de equipo");
+                throw new Exception("Debe ingresar un nombre de equipo.");
 
             if (Contrasenia.Length < 8)
-                throw new Exception("La contraseña debe tener 8 dígitos o más.");
+                throw new Exception("La contraseña debe tener al menos 8 caracteres.");
         }
 
         public override string ToString()

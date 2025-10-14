@@ -129,7 +129,6 @@ namespace ObligatorioP2
 
         }
 
-
         private static void MostrarIntegrantesEquipo()
         {
             Console.WriteLine("=== EQUIPOS REGISTRADOS ===");
@@ -162,7 +161,7 @@ namespace ObligatorioP2
                 {
                     Console.WriteLine("\n");
                     foreach (Usuario unU in usuariosE)
-                        Console.WriteLine(unU.Nombre + unU.Email);
+                        Console.WriteLine(unU.Nombre+" - "+unU.Email);
                 }
                 else
                 {
@@ -174,8 +173,7 @@ namespace ObligatorioP2
         }
 
 
-        //Funciones
-
+        //Metodos for fun
         private static void Continuar()
         {
             Console.WriteLine("\nPresione una tecla para continuar...");
@@ -194,8 +192,6 @@ namespace ObligatorioP2
             Console.Write("\rListo!        \n");
         }
 
-
-        
 
     }
 }
