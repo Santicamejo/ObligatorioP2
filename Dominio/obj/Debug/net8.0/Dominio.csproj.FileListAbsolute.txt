@@ -1,0 +1,67 @@
+C:\Users\sm116\source\repos\ObligatorioP2\Dominio\bin\Debug\net8.0\Dominio.deps.json
+C:\Users\sm116\source\repos\ObligatorioP2\Dominio\bin\Debug\net8.0\Dominio.dll
+C:\Users\sm116\source\repos\ObligatorioP2\Dominio\bin\Debug\net8.0\Dominio.pdb
+C:\Users\sm116\source\repos\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sm116\source\repos\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\sm116\source\repos\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfo.cs
+C:\Users\sm116\source\repos\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\sm116\source\repos\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.dll
+C:\Users\sm116\source\repos\ObligatorioP2\Dominio\obj\Debug\net8.0\refint\Dominio.dll
+C:\Users\sm116\source\repos\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.pdb
+C:\Users\sm116\source\repos\ObligatorioP2\Dominio\obj\Debug\net8.0\ref\Dominio.dll
+C:\Users\sm116\ObligatorioP2\ObligatorioP2\Dominio\bin\Debug\net8.0\Dominio.deps.json
+C:\Users\sm116\ObligatorioP2\ObligatorioP2\Dominio\bin\Debug\net8.0\Dominio.dll
+C:\Users\sm116\ObligatorioP2\ObligatorioP2\Dominio\bin\Debug\net8.0\Dominio.pdb
+C:\Users\sm116\ObligatorioP2\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sm116\ObligatorioP2\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\sm116\ObligatorioP2\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfo.cs
+C:\Users\sm116\ObligatorioP2\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\sm116\ObligatorioP2\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.sourcelink.json
+C:\Users\sm116\ObligatorioP2\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.dll
+C:\Users\sm116\ObligatorioP2\ObligatorioP2\Dominio\obj\Debug\net8.0\refint\Dominio.dll
+C:\Users\sm116\ObligatorioP2\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.pdb
+C:\Users\sm116\ObligatorioP2\ObligatorioP2\Dominio\obj\Debug\net8.0\ref\Dominio.dll
+C:\Users\alumnoFI\source\repos\ObligatorioP2-main\ObligatorioP2\Dominio\bin\Debug\net8.0\Dominio.deps.json
+C:\Users\alumnoFI\source\repos\ObligatorioP2-main\ObligatorioP2\Dominio\bin\Debug\net8.0\Dominio.dll
+C:\Users\alumnoFI\source\repos\ObligatorioP2-main\ObligatorioP2\Dominio\bin\Debug\net8.0\Dominio.pdb
+C:\Users\alumnoFI\source\repos\ObligatorioP2-main\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\source\repos\ObligatorioP2-main\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\source\repos\ObligatorioP2-main\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfo.cs
+C:\Users\alumnoFI\source\repos\ObligatorioP2-main\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\source\repos\ObligatorioP2-main\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.dll
+C:\Users\alumnoFI\source\repos\ObligatorioP2-main\ObligatorioP2\Dominio\obj\Debug\net8.0\refint\Dominio.dll
+C:\Users\alumnoFI\source\repos\ObligatorioP2-main\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.pdb
+C:\Users\alumnoFI\source\repos\ObligatorioP2-main\ObligatorioP2\Dominio\obj\Debug\net8.0\ref\Dominio.dll
+C:\Users\alumnoFI\Desktop\ObligatorioP2\Dominio\bin\Debug\net8.0\Dominio.deps.json
+C:\Users\alumnoFI\Desktop\ObligatorioP2\Dominio\bin\Debug\net8.0\Dominio.dll
+C:\Users\alumnoFI\Desktop\ObligatorioP2\Dominio\bin\Debug\net8.0\Dominio.pdb
+C:\Users\alumnoFI\Desktop\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.dll
+C:\Users\alumnoFI\Desktop\ObligatorioP2\Dominio\obj\Debug\net8.0\refint\Dominio.dll
+C:\Users\alumnoFI\Desktop\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.pdb
+C:\Users\alumnoFI\Desktop\ObligatorioP2\Dominio\obj\Debug\net8.0\ref\Dominio.dll
+C:\Users\sm116\Downloads\ObligatorioP2 14oct\ObligatorioP2\Dominio\bin\Debug\net8.0\Dominio.deps.json
+C:\Users\sm116\Downloads\ObligatorioP2 14oct\ObligatorioP2\Dominio\bin\Debug\net8.0\Dominio.dll
+C:\Users\sm116\Downloads\ObligatorioP2 14oct\ObligatorioP2\Dominio\bin\Debug\net8.0\Dominio.pdb
+C:\Users\sm116\Downloads\ObligatorioP2 14oct\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sm116\Downloads\ObligatorioP2 14oct\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\sm116\Downloads\ObligatorioP2 14oct\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfo.cs
+C:\Users\sm116\Downloads\ObligatorioP2 14oct\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\sm116\Downloads\ObligatorioP2 14oct\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.dll
+C:\Users\sm116\Downloads\ObligatorioP2 14oct\ObligatorioP2\Dominio\obj\Debug\net8.0\refint\Dominio.dll
+C:\Users\sm116\Downloads\ObligatorioP2 14oct\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.pdb
+C:\Users\sm116\Downloads\ObligatorioP2 14oct\ObligatorioP2\Dominio\obj\Debug\net8.0\ref\Dominio.dll
+C:\Users\sm116\OneDrive\DRIVE\ObligatorioP2\Dominio\bin\Debug\net8.0\Dominio.deps.json
+C:\Users\sm116\OneDrive\DRIVE\ObligatorioP2\Dominio\bin\Debug\net8.0\Dominio.dll
+C:\Users\sm116\OneDrive\DRIVE\ObligatorioP2\Dominio\bin\Debug\net8.0\Dominio.pdb
+C:\Users\sm116\OneDrive\DRIVE\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sm116\OneDrive\DRIVE\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\sm116\OneDrive\DRIVE\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfo.cs
+C:\Users\sm116\OneDrive\DRIVE\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\sm116\OneDrive\DRIVE\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.dll
+C:\Users\sm116\OneDrive\DRIVE\ObligatorioP2\Dominio\obj\Debug\net8.0\refint\Dominio.dll
+C:\Users\sm116\OneDrive\DRIVE\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.pdb
+C:\Users\sm116\OneDrive\DRIVE\ObligatorioP2\Dominio\obj\Debug\net8.0\ref\Dominio.dll

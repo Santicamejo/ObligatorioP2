@@ -1,16 +1,87 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sm116\\ObligatorioP2\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\sm116\\OneDrive\\DRIVE\\ObligatorioP2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5821B40C-3163-46F7-805E-3E8E90CB4A56}|ObligatorioP2\\ObligatorioP2.csproj|c:\\users\\sm116\\onedrive\\drive\\obligatoriop2\\obligatoriop2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5821B40C-3163-46F7-805E-3E8E90CB4A56}|ObligatorioP2\\ObligatorioP2.csproj|solutionrelative:obligatoriop2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\onedrive\\drive\\obligatoriop2\\dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\onedrive\\drive\\obligatoriop2\\dominio\\tipogasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\tipogasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\onedrive\\drive\\obligatoriop2\\dominio\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\onedrive\\drive\\obligatoriop2\\dominio\\pagounico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\pagounico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\onedrive\\drive\\obligatoriop2\\dominio\\pagorecurrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\pagorecurrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\onedrive\\drive\\obligatoriop2\\dominio\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\onedrive\\drive\\obligatoriop2\\dominio\\metodopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\metodopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\onedrive\\drive\\obligatoriop2\\dominio\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\onedrive\\drive\\obligatoriop2\\dominio\\dominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\dominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "DockedHeight": 330,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sm116\\OneDrive\\DRIVE\\ObligatorioP2\\ObligatorioP2\\Program.cs",
+              "RelativeDocumentMoniker": "ObligatorioP2\\Program.cs",
+              "ToolTip": "C:\\Users\\sm116\\OneDrive\\DRIVE\\ObligatorioP2\\ObligatorioP2\\Program.cs",
+              "RelativeToolTip": "ObligatorioP2\\Program.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAmwJIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T23:52:31.745Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Dominio.csproj",
+              "DocumentMoniker": "C:\\Users\\sm116\\OneDrive\\DRIVE\\ObligatorioP2\\Dominio\\Dominio.csproj",
+              "RelativeDocumentMoniker": "Dominio\\Dominio.csproj",
+              "ToolTip": "C:\\Users\\sm116\\OneDrive\\DRIVE\\ObligatorioP2\\Dominio\\Dominio.csproj",
+              "RelativeToolTip": "Dominio\\Dominio.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-13T18:26:06.512Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -22,16 +93,123 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TipoGasto.cs",
+              "DocumentMoniker": "C:\\Users\\sm116\\OneDrive\\DRIVE\\ObligatorioP2\\Dominio\\TipoGasto.cs",
+              "RelativeDocumentMoniker": "Dominio\\TipoGasto.cs",
+              "ToolTip": "C:\\Users\\sm116\\OneDrive\\DRIVE\\ObligatorioP2\\Dominio\\TipoGasto.cs",
+              "RelativeToolTip": "Dominio\\TipoGasto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T19:05:15.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Equipo.cs",
+              "DocumentMoniker": "C:\\Users\\sm116\\OneDrive\\DRIVE\\ObligatorioP2\\Dominio\\Equipo.cs",
+              "RelativeDocumentMoniker": "Dominio\\Equipo.cs",
+              "ToolTip": "C:\\Users\\sm116\\OneDrive\\DRIVE\\ObligatorioP2\\Dominio\\Equipo.cs",
+              "RelativeToolTip": "Dominio\\Equipo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T19:04:01.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sistema.cs",
+              "DocumentMoniker": "C:\\Users\\sm116\\OneDrive\\DRIVE\\ObligatorioP2\\Dominio\\Sistema.cs",
+              "RelativeDocumentMoniker": "Dominio\\Sistema.cs",
+              "ToolTip": "C:\\Users\\sm116\\OneDrive\\DRIVE\\ObligatorioP2\\Dominio\\Sistema.cs",
+              "RelativeToolTip": "Dominio\\Sistema.cs",
+              "ViewState": "AgIAAIoBAAAAAAAAAAAAwLIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T22:05:36.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PagoUnico.cs",
+              "DocumentMoniker": "C:\\Users\\sm116\\OneDrive\\DRIVE\\ObligatorioP2\\Dominio\\PagoUnico.cs",
+              "RelativeDocumentMoniker": "Dominio\\PagoUnico.cs",
+              "ToolTip": "C:\\Users\\sm116\\OneDrive\\DRIVE\\ObligatorioP2\\Dominio\\PagoUnico.cs",
+              "RelativeToolTip": "Dominio\\PagoUnico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T23:55:30.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MetodoPago.cs",
+              "DocumentMoniker": "C:\\Users\\sm116\\OneDrive\\DRIVE\\ObligatorioP2\\Dominio\\MetodoPago.cs",
+              "RelativeDocumentMoniker": "Dominio\\MetodoPago.cs",
+              "ToolTip": "C:\\Users\\sm116\\OneDrive\\DRIVE\\ObligatorioP2\\Dominio\\MetodoPago.cs",
+              "RelativeToolTip": "Dominio\\MetodoPago.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T23:54:15.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\sm116\\OneDrive\\DRIVE\\ObligatorioP2\\Dominio\\Usuario.cs",
+              "RelativeDocumentMoniker": "Dominio\\Usuario.cs",
+              "ToolTip": "C:\\Users\\sm116\\OneDrive\\DRIVE\\ObligatorioP2\\Dominio\\Usuario.cs",
+              "RelativeToolTip": "Dominio\\Usuario.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAYwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T23:56:29.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pago.cs",
+              "DocumentMoniker": "C:\\Users\\sm116\\OneDrive\\DRIVE\\ObligatorioP2\\Dominio\\Pago.cs",
+              "RelativeDocumentMoniker": "Dominio\\Pago.cs",
+              "ToolTip": "C:\\Users\\sm116\\OneDrive\\DRIVE\\ObligatorioP2\\Dominio\\Pago.cs",
+              "RelativeToolTip": "Dominio\\Pago.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAwFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T23:54:34.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PagoRecurrente.cs",
+              "DocumentMoniker": "C:\\Users\\sm116\\OneDrive\\DRIVE\\ObligatorioP2\\Dominio\\PagoRecurrente.cs",
+              "RelativeDocumentMoniker": "Dominio\\PagoRecurrente.cs",
+              "ToolTip": "C:\\Users\\sm116\\OneDrive\\DRIVE\\ObligatorioP2\\Dominio\\PagoRecurrente.cs",
+              "RelativeToolTip": "Dominio\\PagoRecurrente.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwDQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T23:55:05.502Z"
             }
           ]
         },
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "DockedHeight": 33,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-10-14T13:39:18.394Z"
             }
           ]
         }
