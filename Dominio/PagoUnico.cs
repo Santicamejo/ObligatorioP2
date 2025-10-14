@@ -3,7 +3,10 @@
     public class PagoUnico : Pago
     {
         private DateTime _fecha;
-        public DateTime Fecha { get { return _fecha; } set { _fecha = value; } }
+        public DateTime Fecha { 
+            get { return _fecha; } 
+            set { _fecha = value; } 
+        }
 
         public PagoUnico(MetodoPago metodoPago, TipoGasto tipoGasto, Usuario usuario, string descripcion, decimal monto, DateTime fecha) : base(metodoPago, tipoGasto, usuario, descripcion, monto)
         {

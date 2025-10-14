@@ -2,7 +2,7 @@
 {
     public abstract class Pago
     {
-        private static int s_id = 0;
+        private static int s_ultimoID = 0;
 
         private int _id;
         private MetodoPago _metodoPago;
@@ -12,8 +12,8 @@
         private decimal _monto;
         public int s_Id
         {
-            get { return s_id; }
-            set { s_id = value; }
+            get { return s_ultimoID; }
+            set { s_ultimoID = value; }
         }
         public int Id
         {
@@ -48,7 +48,7 @@
 
         public Pago(MetodoPago metodoPago, TipoGasto tipoGasto, Usuario usuario, string descripcion, decimal monto)
         {
-            Id = ++s_Id;
+            Id = ++s_ultimoID;
             MetodoPago = metodoPago;
             TipoGasto = tipoGasto;
             Usuario = usuario;
