@@ -1,0 +1,16 @@
+name: Hola Mundo
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Imprimir Hola Mundo
+        run: echo "👋 Hola Mundo desde GitHub Actions!"
