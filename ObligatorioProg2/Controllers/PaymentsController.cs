@@ -31,6 +31,9 @@ namespace ObligatorioProg2.Controllers
                     listaFiltrada.Add(unPR);
                 }
             }
+
+            listaFiltrada.Sort();
+
             return View(listaFiltrada);
         }
     }
