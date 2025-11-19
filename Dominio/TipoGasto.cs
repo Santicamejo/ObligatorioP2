@@ -12,6 +12,10 @@
             Descripcion = descripcion;
         }
 
+        public TipoGasto()
+        {
+        }
+
         public override string ToString()
         {
             return $"{Descripcion}";

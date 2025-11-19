@@ -86,20 +86,9 @@
                 throw new Exception("El monto tiene que ser mayor o igual a 0");
         }
 
-        public int CompareTo(Pago unP)
+        public int CompareTo(Pago otroPago)
         {
-            if (Monto.CompareTo(unP.Monto) > 0)
-            {
-                return -1;
-            }
-            else if (Monto.CompareTo(unP.Monto) < 0)
-            {
-                return 1;
-            }
-            else
-            {
-                return 0;
-            }
+            return Monto.CompareTo(otroPago.Monto);
         }
 
     }

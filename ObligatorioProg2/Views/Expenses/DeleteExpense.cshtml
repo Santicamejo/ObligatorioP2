@@ -1,0 +1,16 @@
+﻿@using Dominio
+@model List<TipoGasto>
+
+<h1>Eliminar Gasto</h1>
+
+<form action="/Expenses/DeleteExpense" method="post">
+    <select name="Nombre">
+        <option disabled selected>Seleccione un gasto</option>
+        @foreach (TipoGasto unG in Model)
+        {
+            <option value="@unG.Nombre">@unG.Nombre - @unG.Descripcion</option>
+        }
+    </select>
+
+    <input type="submit" value="Eliminar"/>
+</form>

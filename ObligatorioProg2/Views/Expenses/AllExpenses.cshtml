@@ -1,0 +1,25 @@
+﻿@using Dominio
+@model List<TipoGasto>
+
+<h1>Todos los gastos</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Descripcion</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (TipoGasto unG in Model)
+        {
+            <tr>
+                <td>@unG.Nombre</td>
+                <td>@unG.Descripcion</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a class="btn btn-success" asp-area="" asp-controller="Expenses" asp-action="NewExpense">Cargar nuevo gasto</a>
+<a class="btn btn-danger" asp-area="" asp-controller="Expenses" asp-action="DeleteExpense">Eliminar gasto</a>

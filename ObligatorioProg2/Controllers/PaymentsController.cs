@@ -9,7 +9,7 @@ namespace ObligatorioProg2.Controllers
         {
             if (HttpContext.Session.GetString("email") == null)
             {
-                TempData["login"] = "Debes iniciar sesion para ver esa pagina";
+                TempData["login"] = "Debes iniciar sesion para ver la pagina de 'Mis pagos'";
                 return RedirectToAction("Login", "Home");
             }
             List<Pago> listaPagos = Sistema.Instancia.GetPagosPorEmail(HttpContext.Session.GetString("email"));
@@ -32,7 +32,7 @@ namespace ObligatorioProg2.Controllers
                 }
             }
 
-            listaFiltrada.Sort();
+            listaFiltrada.Sort(new PagoMontoDescComparer());
 
             return View(listaFiltrada);
         }

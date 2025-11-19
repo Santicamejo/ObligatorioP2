@@ -32,16 +32,17 @@
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Payments" asp-action="MyPayments">Mis pagos</a>
                             </li>
                             //dentro de ver pagos esta Crear nuevo pago
-                        }
-                        @if (Context.Session.GetString("email") != null)
-                        {
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">Todos los pagos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">Todos los gastos</a>
-                            </li>
-                            //dentro de ver todos los gastos esta cargar nuevo gasto y eliminar gasto
+                        
+                            @if (Context.Session.GetString("rol") == "Gerente")
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">Pagos de equipo</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Expenses" asp-action="AllExpenses">Tipos de gasto</a>
+                                </li>
+                                //dentro de ver todos los gastos esta cargar nuevo gasto y eliminar gasto
+                            }
                         }
                     </ul>
 

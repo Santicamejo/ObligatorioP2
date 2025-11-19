@@ -3,40 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\sm116\\ObligatorioP2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\obligatoriop2\\dominio\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|c:\\users\\sm116\\obligatoriop2\\obligatorioprog2\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|solutionrelative:obligatorioprog2\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\obligatoriop2\\dominio\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|c:\\users\\sm116\\obligatoriop2\\obligatorioprog2\\views\\expenses\\deleteexpense.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|solutionrelative:obligatorioprog2\\views\\expenses\\deleteexpense.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|c:\\users\\sm116\\obligatoriop2\\obligatorioprog2\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|solutionrelative:obligatorioprog2\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|c:\\users\\sm116\\obligatoriop2\\obligatorioprog2\\views\\expenses\\allexpenses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|solutionrelative:obligatorioprog2\\views\\expenses\\allexpenses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|c:\\users\\sm116\\obligatoriop2\\obligatorioprog2\\views\\payments\\mypayments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|solutionrelative:obligatorioprog2\\views\\payments\\mypayments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\obligatoriop2\\dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|c:\\users\\sm116\\obligatoriop2\\obligatorioprog2\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|solutionrelative:obligatorioprog2\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|c:\\users\\sm116\\obligatoriop2\\obligatorioprog2\\views\\expenses\\newexpense.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|solutionrelative:obligatorioprog2\\views\\expenses\\newexpense.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|c:\\users\\sm116\\obligatoriop2\\obligatorioprog2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|solutionrelative:obligatorioprog2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\obligatoriop2\\dominio\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\obligatoriop2\\dominio\\tipogasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\tipogasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|c:\\users\\sm116\\obligatoriop2\\obligatorioprog2\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|solutionrelative:obligatorioprog2\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|c:\\users\\sm116\\obligatoriop2\\obligatorioprog2\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|solutionrelative:obligatorioprog2\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|c:\\users\\sm116\\obligatoriop2\\obligatorioprog2\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|solutionrelative:obligatorioprog2\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|c:\\users\\sm116\\obligatoriop2\\obligatorioprog2\\views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|solutionrelative:obligatorioprog2\\views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|c:\\users\\sm116\\obligatoriop2\\obligatorioprog2\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|solutionrelative:obligatorioprog2\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|c:\\users\\sm116\\obligatoriop2\\obligatorioprog2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -47,20 +55,36 @@
       "RelativeMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|solutionrelative:obligatorioprog2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|c:\\users\\sm116\\obligatoriop2\\obligatorioprog2\\views\\payments\\mypayments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|solutionrelative:obligatorioprog2\\views\\payments\\mypayments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|c:\\users\\sm116\\obligatoriop2\\obligatorioprog2\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|solutionrelative:obligatorioprog2\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|c:\\users\\sm116\\obligatoriop2\\obligatorioprog2\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|solutionrelative:obligatorioprog2\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\obligatoriop2\\dominio\\gerente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\gerente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\obligatoriop2\\dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\obligatoriop2\\dominio\\pagomontodesccomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\pagomontodesccomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\obligatoriop2\\dominio\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|c:\\users\\sm116\\obligatoriop2\\obligatorioprog2\\views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|solutionrelative:obligatorioprog2\\views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\obligatoriop2\\dominio\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|c:\\users\\sm116\\obligatoriop2\\dominio\\gerente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61EA6C3C-F203-44BB-982B-B064D87E33C9}|Dominio\\Dominio.csproj|solutionrelative:dominio\\gerente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{122324E2-FE40-4E2A-BE3C-6EF6E5A29400}|ObligatorioProg2\\ObligatorioProg2.csproj|c:\\users\\sm116\\obligatoriop2\\obligatorioprog2\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -97,20 +121,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Pago.cs",
-              "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\Dominio\\Pago.cs",
-              "RelativeDocumentMoniker": "Dominio\\Pago.cs",
-              "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\Dominio\\Pago.cs",
-              "RelativeToolTip": "Dominio\\Pago.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAswGAAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T01:47:53.309Z",
+              "DocumentIndex": 3,
+              "Title": "NewExpense.cshtml",
+              "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Views\\Expenses\\NewExpense.cshtml",
+              "RelativeDocumentMoniker": "ObligatorioProg2\\Views\\Expenses\\NewExpense.cshtml",
+              "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Views\\Expenses\\NewExpense.cshtml",
+              "RelativeToolTip": "ObligatorioProg2\\Views\\Expenses\\NewExpense.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-19T22:07:58.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AllExpenses.cshtml",
+              "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Views\\Expenses\\AllExpenses.cshtml",
+              "RelativeDocumentMoniker": "ObligatorioProg2\\Views\\Expenses\\AllExpenses.cshtml",
+              "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Views\\Expenses\\AllExpenses.cshtml",
+              "RelativeToolTip": "ObligatorioProg2\\Views\\Expenses\\AllExpenses.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-19T21:30:44.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExpensesController.cs",
+              "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Controllers\\ExpensesController.cs",
+              "RelativeDocumentMoniker": "ObligatorioProg2\\Controllers\\ExpensesController.cs",
+              "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Controllers\\ExpensesController.cs",
+              "RelativeToolTip": "ObligatorioProg2\\Controllers\\ExpensesController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAswFgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T21:26:41.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "ObligatorioProg2\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "ObligatorioProg2\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T17:54:53.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TipoGasto.cs",
+              "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\Dominio\\TipoGasto.cs",
+              "RelativeDocumentMoniker": "Dominio\\TipoGasto.cs",
+              "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\Dominio\\TipoGasto.cs",
+              "RelativeToolTip": "Dominio\\TipoGasto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T21:41:12.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ObligatorioProg2\\Controllers\\UserController.cs",
@@ -123,20 +199,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "ObligatorioProg2\\Controllers\\PaymentsController.cs",
+              "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "ObligatorioProg2\\Controllers\\PaymentsController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T00:03:42.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ObligatorioProg2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ObligatorioProg2\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T17:26:03.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeleteExpense.cshtml",
+              "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Views\\Expenses\\DeleteExpense.cshtml",
+              "RelativeDocumentMoniker": "ObligatorioProg2\\Views\\Expenses\\DeleteExpense.cshtml",
+              "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Views\\Expenses\\DeleteExpense.cshtml",
+              "RelativeToolTip": "ObligatorioProg2\\Views\\Expenses\\DeleteExpense.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-19T22:08:27.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Sistema.cs",
               "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\Dominio\\Sistema.cs",
               "RelativeDocumentMoniker": "Dominio\\Sistema.cs",
               "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\Dominio\\Sistema.cs",
               "RelativeToolTip": "Dominio\\Sistema.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAgwEoAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAOABAAAAAAAAAAAQwAACAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T18:34:33.427Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "ObligatorioProg2\\Views\\Home\\Privacy.cshtml",
@@ -144,35 +259,38 @@
               "RelativeToolTip": "ObligatorioProg2\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-11T18:32:21.739Z"
+              "WhenOpened": "2025-11-11T18:32:21.739Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
+              "Title": "MyPayments.cshtml",
+              "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Views\\Payments\\MyPayments.cshtml",
+              "RelativeDocumentMoniker": "ObligatorioProg2\\Views\\Payments\\MyPayments.cshtml",
+              "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Views\\Payments\\MyPayments.cshtml",
+              "RelativeToolTip": "ObligatorioProg2\\Views\\Payments\\MyPayments.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-18T00:48:18.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ObligatorioProg2\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "ObligatorioProg2\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-11T18:28:59.256Z"
+              "WhenOpened": "2025-11-11T18:28:59.256Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Views\\Home\\Login.cshtml",
-              "RelativeDocumentMoniker": "ObligatorioProg2\\Views\\Home\\Login.cshtml",
-              "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Views\\Home\\Login.cshtml",
-              "RelativeToolTip": "ObligatorioProg2\\Views\\Home\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-11T17:54:53.717Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "ObligatorioProg2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -180,74 +298,77 @@
               "RelativeToolTip": "ObligatorioProg2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-11T19:29:59.53Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ObligatorioProg2\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ObligatorioProg2\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAhwCEAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T17:26:03.094Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MyPayments.cshtml",
-              "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Views\\Payments\\MyPayments.cshtml",
-              "RelativeDocumentMoniker": "ObligatorioProg2\\Views\\Payments\\MyPayments.cshtml",
-              "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Views\\Payments\\MyPayments.cshtml",
-              "RelativeToolTip": "ObligatorioProg2\\Views\\Payments\\MyPayments.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-18T00:48:18.555Z",
+              "WhenOpened": "2025-11-11T19:29:59.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ObligatorioProg2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ObligatorioProg2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAACTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T19:04:44.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Gerente.cs",
+              "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\Dominio\\Gerente.cs",
+              "RelativeDocumentMoniker": "Dominio\\Gerente.cs",
+              "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\Dominio\\Gerente.cs",
+              "RelativeToolTip": "Dominio\\Gerente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T19:38:16.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\Dominio\\Usuario.cs",
               "RelativeDocumentMoniker": "Dominio\\Usuario.cs",
               "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\Dominio\\Usuario.cs",
               "RelativeToolTip": "Dominio\\Usuario.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAuwAcAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T19:36:57.946Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PaymentsController.cs",
-              "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Controllers\\PaymentsController.cs",
-              "RelativeDocumentMoniker": "ObligatorioProg2\\Controllers\\PaymentsController.cs",
-              "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Controllers\\PaymentsController.cs",
-              "RelativeToolTip": "ObligatorioProg2\\Controllers\\PaymentsController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCIAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "Pago.cs",
+              "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\Dominio\\Pago.cs",
+              "RelativeDocumentMoniker": "Dominio\\Pago.cs",
+              "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\Dominio\\Pago.cs",
+              "RelativeToolTip": "Dominio\\Pago.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAswF4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T00:03:42.115Z",
+              "WhenOpened": "2025-11-18T01:47:53.309Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ObligatorioProg2\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ObligatorioProg2\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAB6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-11T19:04:44.638Z"
+              "DocumentIndex": 17,
+              "Title": "PagoMontoDescComparer.cs",
+              "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\Dominio\\PagoMontoDescComparer.cs",
+              "RelativeDocumentMoniker": "Dominio\\PagoMontoDescComparer.cs",
+              "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\Dominio\\PagoMontoDescComparer.cs",
+              "RelativeToolTip": "Dominio\\PagoMontoDescComparer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T21:11:23.675Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Views\\User\\Profile.cshtml",
               "RelativeDocumentMoniker": "ObligatorioProg2\\Views\\User\\Profile.cshtml",
@@ -259,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "Empleado.cs",
               "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\Dominio\\Empleado.cs",
               "RelativeDocumentMoniker": "Dominio\\Empleado.cs",
@@ -271,19 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Gerente.cs",
-              "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\Dominio\\Gerente.cs",
-              "RelativeDocumentMoniker": "Dominio\\Gerente.cs",
-              "ToolTip": "C:\\Users\\sm116\\ObligatorioP2\\Dominio\\Gerente.cs",
-              "RelativeToolTip": "Dominio\\Gerente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T19:38:16.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\ObligatorioProg2\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "ObligatorioProg2\\Views\\Shared\\Error.cshtml",
@@ -295,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "Equipo.cs",
               "DocumentMoniker": "C:\\Users\\sm116\\ObligatorioP2\\Dominio\\Equipo.cs",
               "RelativeDocumentMoniker": "Dominio\\Equipo.cs",
@@ -317,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",

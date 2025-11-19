@@ -363,6 +363,16 @@ namespace Dominio
             return listado;
         }
 
+        public List<TipoGasto> GetTipoGasto()
+        {
+            List<TipoGasto> listado = new List<TipoGasto>();
+            foreach (TipoGasto unG in _tipoGastos)
+            {
+                listado.Add(unG);
+            }
+            return listado;
+        }
+
         public List<Pago> GetPagosPorEmail(string EmailIngresado)
         {
             List<Pago> listado = new List<Pago>();
@@ -479,6 +489,29 @@ namespace Dominio
 
             return buscado;
         }
+
+        public void EliminarTipoGastoPorNombre(string nombre)
+        {
+            if (string.IsNullOrWhiteSpace(nombre))
+                throw new Exception("Debe seleccionar un nombre válido.");
+
+            TipoGasto encontrado = null;
+
+            foreach (TipoGasto g in _tipoGastos)
+            {
+                if (g.Nombre.Equals(nombre, StringComparison.OrdinalIgnoreCase))
+                {
+                    encontrado = g;
+                    break;
+                }
+            }
+
+            if (encontrado == null)
+                throw new Exception("No existe un gasto con ese nombre.");
+
+            _tipoGastos.Remove(encontrado);
+        }
+
 
     }
 }

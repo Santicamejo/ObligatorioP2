@@ -1,0 +1,17 @@
+﻿@using Dominio
+@model TipoGasto
+
+<h1>Crear Gasto</h1>
+
+<form action="/Expenses/NewExpense" method="post">
+
+    <input type="text" name="Nombre" placeholder="Nombre" value="@Model.Nombre"/>
+    <textarea name="Descripcion" placeholder="Descripción">@Model.Descripcion</textarea>
+
+    <input type="submit" value="Guardar"/>
+</form>
+
+@if (ViewBag.Error != null)
+{
+    <p class="alert-warning">@ViewBag.Error</p>
+}
