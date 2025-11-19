@@ -1,6 +1,6 @@
 ﻿namespace Dominio
 {
-    public abstract class Pago : IComparable
+    public abstract class Pago : IComparable<Pago>
     {
         private static int s_ultimoID = 0;
 
@@ -86,26 +86,19 @@
                 throw new Exception("El monto tiene que ser mayor o igual a 0");
         }
 
-        public int CompareTo(object? obj)
+        public int CompareTo(Pago unP)
         {
-            if(obj is Pago otroPago)
+            if (Monto.CompareTo(unP.Monto) > 0)
             {
-                if(Monto.CompareTo(otroPago.Monto) < 0)
-                {
-                    return 1;
-                }
-                else if (Monto.CompareTo(otroPago.Monto) > 0)
-                {
-                    return -1;
-                }
-                else
-                {
-                    return 0;
-                }
+                return -1;
+            }
+            else if (Monto.CompareTo(unP.Monto) < 0)
+            {
+                return 1;
             }
             else
             {
-                return -1;
+                return 0;
             }
         }
 
