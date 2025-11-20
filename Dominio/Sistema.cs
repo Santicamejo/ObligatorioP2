@@ -123,7 +123,7 @@ namespace Dominio
 
             Usuario u22 = new Gerente("Tomás", "Pereyra", "TomPereyra!", e2, new DateTime(2017, 9, 9));
             AgregarUsuario(u22);
-
+            
             // =====================
             // TIPOS DE GASTO (10)
             // =====================
@@ -497,17 +497,25 @@ namespace Dominio
 
             TipoGasto encontrado = null;
 
-            foreach (TipoGasto g in _tipoGastos)
+            foreach (TipoGasto unG in _tipoGastos)
             {
-                if (g.Nombre.Equals(nombre, StringComparison.OrdinalIgnoreCase))
+                if (unG.Nombre == nombre)
                 {
-                    encontrado = g;
-                    break;
+                    encontrado = unG;
                 }
             }
 
             if (encontrado == null)
                 throw new Exception("No existe un gasto con ese nombre.");
+
+            //En este caso encontrado es una instancia de un tipo de gasto que ya se encuentra en el sistema,
+            //lo unico que hago es referenciarla. A su vez un pago referencia tambien al tipo de gasto,
+            //por ende puedo hacer == porque el objeto seria exactamente la misma referencia en memoria
+            foreach (Pago unP in _pagos)
+            {
+                if (unP.TipoGasto == encontrado)
+                    throw new Exception("El tipo de gasto se esta utilizando en un pago");
+            }
 
             _tipoGastos.Remove(encontrado);
         }

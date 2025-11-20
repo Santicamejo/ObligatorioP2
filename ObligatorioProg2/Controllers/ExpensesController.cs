@@ -103,10 +103,11 @@ namespace ObligatorioProg2.Controllers
             }
             catch (Exception ex)
             {
+                List<TipoGasto> listaGastos = Sistema.Instancia.GetTipoGasto();
+
                 ViewBag.Error = ex.Message;
-                var lista = Sistema.Instancia.GetTipoGasto();
-                return View(lista);
-            }
+                return View(listaGastos);
+            }   
         }
 
     }
