@@ -46,6 +46,8 @@
             set { _monto = value; }
         }
 
+        public Pago() { }
+
         public Pago(MetodoPago metodoPago, TipoGasto tipoGasto, Usuario usuario, string descripcion, decimal monto)
         {
             Id = ++s_ultimoID;
@@ -61,7 +63,10 @@
             return this.Usuario.Email;
         }
 
-        public abstract decimal CalcularMontoTotal(Pago pago);
+        public virtual decimal CalcularMontoTotal()
+        {
+            return Monto;
+        }
 
         public override string ToString()
         {

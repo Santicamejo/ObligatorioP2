@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿@{
+    string? mailUsuario = Context.Session.GetString("email");
+    string? rolUsuario = Context.Session.GetString("rol");
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -26,17 +31,17 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
 
-                        @if (Context.Session.GetString("email") != null)
+                        @if (mailUsuario != null)
                         {
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Payments" asp-action="MyPayments">Mis pagos</a>
                             </li>
                             //dentro de ver pagos esta Crear nuevo pago
-                        
-                            @if (Context.Session.GetString("rol") == "Gerente")
+
+                            @if (rolUsuario == "Gerente")
                             {
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">Pagos de equipo</a>
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Payments" asp-action="AllPayments">Pagos de equipo</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-dark" asp-area="" asp-controller="Expenses" asp-action="AllExpenses">Tipos de gasto</a>
@@ -52,7 +57,7 @@
 
 
 
-                    @if (Context.Session.GetString("email") != null)
+                    @if (mailUsuario != null)
                     {
                         <span>
                             <a href="/User/Profile" class="btn btn-success text-decoration-none text-light">Perfil</a>

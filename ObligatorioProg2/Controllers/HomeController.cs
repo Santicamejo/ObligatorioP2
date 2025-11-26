@@ -43,6 +43,7 @@ namespace ObligatorioProg2.Controllers
 
         public IActionResult Logout()
         {
+            //Limpiamos el HttpContext al cerrar sesion
             HttpContext.Session.Clear();
             return RedirectToAction("Login");
         }

@@ -1,0 +1,46 @@
+﻿@using Dominio
+@model List<Pago>
+ 
+    <h1>Todos los pagos del equipo</h1>
+
+@if (Model == null || Model.Count == 0)
+{
+    <p>El equipo no tiene pagos registrados para esta fecha.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <th>Email</th>
+        <th>Tipo de pago</th>
+        <th>Descripcion</th>
+        <th>Fecha</th>
+        <th>Metodo de pago</th>
+        <th>Monto</th>
+        </thead>
+        <tbody>
+            @foreach (Pago unP in Model)
+            {
+                <tr>
+                    <td>@unP.Usuario.Email</td>
+                    <td>@(unP is PagoUnico ? "Pago único" : "Pago recurrente")</td>
+                    <td>@unP.Descripcion</td>
+                    <td> @(unP is PagoUnico elPU ? elPU.Fecha : ((PagoRecurrente)unP).Desde)</td>
+                    <td>@unP.MetodoPago</td>
+                    <td>@unP.CalcularMontoTotal()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<form method="get" action="/Payments/AllPayments">
+ 
+    <label>Mes</label>
+    <input type="number" name="mes" min="1" max="12" value="@ViewBag.Mes" />
+ 
+    <label>Año</label>
+    <input type="number" name="anio" min="2000" max="2100" value="@ViewBag.Anio" />
+ 
+    <input type="submit" value="Filtrar" />
+</form>

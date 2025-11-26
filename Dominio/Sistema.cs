@@ -321,6 +321,12 @@ namespace Dominio
 
         public void AgregarPago(Pago nuevoPago)
         {
+
+            if (nuevoPago is PagoRecurrente PR)
+            {
+                PR.NormalizarRango();
+            }
+
             nuevoPago.Validar();
             _pagos.Add(nuevoPago);
         }
@@ -332,6 +338,43 @@ namespace Dominio
             //  Valido despues del generar el email por si el sistema falla, asi no existen usuarios sin email en el sistema.
             nuevoUsuario.Validar();
             _usuarios.Add(nuevoUsuario);
+        }
+
+        public Usuario GetUsuarioPorEmail(string email)
+        {
+
+            Usuario usuario = null;
+            int i = 0;
+
+            while (usuario == null && i < _usuarios.Count)
+            {
+                if (_usuarios[i].Email == email)
+                {
+                    usuario = _usuarios[i];
+
+                }
+                else
+                {
+                    i++;
+                }
+            }
+            return usuario;
+        }
+
+        public List<Pago> GetPagosPorNombreEquipo(string nombreEquipo)
+        {
+            List<Pago> listadoPagosEquipo = new List<Pago>();
+            List<Usuario> listadoUsuarios = GetUsuariosPorEquipo(nombreEquipo);
+
+            foreach (Usuario unU in listadoUsuarios)
+            {
+                List<Pago> pagosUsu = GetPagosPorEmail(unU.Email);
+                foreach (Pago unP in pagosUsu)
+                {
+                    listadoPagosEquipo.Add(unP);
+                }
+            }
+            return listadoPagosEquipo;
         }
 
         public List<Equipo> GetEquipos()
@@ -360,6 +403,8 @@ namespace Dominio
                     listado.Add(unU);
                 }
             }
+            listado.Sort();
+
             return listado;
         }
 
@@ -371,6 +416,17 @@ namespace Dominio
                 listado.Add(unG);
             }
             return listado;
+        }
+
+        public TipoGasto GetTipoGastoPorNombre(string nombre)
+        {
+
+            foreach (TipoGasto tipoGasto in _tipoGastos)
+            {
+                if (tipoGasto.Nombre == nombre)
+                    return tipoGasto;
+            }
+            return null;
         }
 
         public List<Pago> GetPagosPorEmail(string EmailIngresado)
@@ -385,6 +441,68 @@ namespace Dominio
             }
             return listado;
         }
+
+        public List<Pago> GetPagosDelMesActualPorEmail(string email, DateTime? fechaBase = null)
+        {
+
+            DateTime hoy = DateTime.Today;
+            DateTime inicioMesActual = new DateTime(hoy.Year, hoy.Month, 1);
+            DateTime finMesActual = new DateTime(hoy.Year, hoy.Month, DateTime.DaysInMonth(hoy.Year, hoy.Month));
+
+            List<Pago> listaPagos = GetPagosPorEmail(email);
+
+            List<Pago> listaFiltrada = new List<Pago>();
+
+            foreach (Pago unP in listaPagos)
+            {
+                if (unP is PagoUnico unPU && unPU.Fecha >= inicioMesActual && unPU.Fecha <= finMesActual)
+                {
+                    listaFiltrada.Add(unPU);
+                }
+                else if (unP is PagoRecurrente unPR && unPR.Hasta >= inicioMesActual && unPR.Desde <= finMesActual)
+                {
+                    listaFiltrada.Add(unPR);
+                }
+            }
+
+            listaFiltrada.Sort(new PagoMontoDescComparer());
+
+            return listaFiltrada;
+        }
+
+        public List<Pago> GetPagosEquipoPorPeriodo(string nombreEquipo, DateTime desde, DateTime hasta)
+        {
+            // Traigo todos los pagos del equipo
+            List<Pago> pagosEquipo = GetPagosPorNombreEquipo(nombreEquipo);
+
+            List<Pago> pagosFiltrados = new List<Pago>();
+
+            foreach (Pago p in pagosEquipo)
+            {
+                if (p is PagoUnico unPU)
+                {
+                    // Pago único dentro del período
+                    if (unPU.Fecha >= desde && unPU.Fecha <= hasta)
+                    {
+                        pagosFiltrados.Add(unPU);
+                    }
+                }
+                else if (p is PagoRecurrente unPR)
+                {
+                    // Pago recurrente que se solapa con el período
+                    if (unPR.Desde <= hasta && unPR.Hasta >= desde)
+                    {
+                        pagosFiltrados.Add(unPR);
+                    }
+                }
+            }
+
+            // orden por monto descendente
+            pagosFiltrados.Sort(new PagoMontoDescComparer());
+
+            return pagosFiltrados;
+        }
+
 
         public bool ExisteEmail(string EmailIngresado)
         {
@@ -520,6 +638,30 @@ namespace Dominio
             _tipoGastos.Remove(encontrado);
         }
 
+        public decimal SpentThisMonth(Usuario usuario)
+        {
+
+            decimal montoMes = 0;
+            List<Pago> pagosUsuario = Sistema.Instancia.GetPagosPorEmail(usuario.Email);
+
+            DateTime hoy = DateTime.Today;
+
+            foreach (Pago unP in pagosUsuario)
+            {
+                if (unP is PagoUnico unPU)
+                {
+                    if (unPU.Fecha.Year == hoy.Year &&
+                        unPU.Fecha.Month == hoy.Month &&
+                        unPU.Fecha.Day < hoy.Day) montoMes += unPU.Monto;
+                }
+                if (unP is PagoRecurrente unPR)
+                {
+                    if (hoy > unPR.Desde && hoy < unPR.Hasta &&
+                        unPR.Desde.Day < hoy.Day) montoMes += unPR.Monto;
+                }
+            }
+            return montoMes;
+        }
 
     }
 }

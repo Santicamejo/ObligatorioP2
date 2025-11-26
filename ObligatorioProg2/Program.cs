@@ -13,7 +13,7 @@ namespace ObligatorioProg2
 
             builder.Services.AddSession(options =>
             {
-                options.IdleTimeout = TimeSpan.FromSeconds(10);
+                options.IdleTimeout = TimeSpan.FromMinutes(12);
                 options.Cookie.HttpOnly = true;
                 options.Cookie.IsEssential = true;
             });

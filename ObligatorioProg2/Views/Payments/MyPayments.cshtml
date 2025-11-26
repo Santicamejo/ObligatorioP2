@@ -1,10 +1,5 @@
 ﻿@using Dominio
 @model List<Pago>
-@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
 
 <h1>Mis pagos</h1>
 
@@ -17,20 +12,26 @@ else
     <table class="table">
         <thead>
             <tr>
+                <th>Tipo de pago</th>
+                <th>Descripcion</th>
+                <th>Fecha</th>
+                <th>Metodo de pago</th>
                 <th>Monto</th>
-                <th>Tipo de gasto</th>
-                <th>Descripción</th>
             </tr>
         </thead>
         <tbody>
             @foreach(Pago unP in Model)
             {
                 <tr>
-                    <td>@unP.Monto</td>
-                    <td>@unP.TipoGasto</td>
+                    <td>@(unP is PagoUnico ? "Pago único" : "Pago recurrente")</td>
                     <td>@unP.Descripcion</td>
+                    <td> @(unP is PagoUnico elPU ? elPU.Fecha : ((PagoRecurrente)unP).Desde)</td>
+                    <td>@unP.MetodoPago</td>
+                    <td>@unP.CalcularMontoTotal()</td>
                 </tr>
             }
         </tbody>
     </table>
 }
+
+<a class="btn btn-success" href="/Payments/SelectPaymentType">Cargar nuevo pago</a>

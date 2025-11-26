@@ -19,15 +19,36 @@ namespace Dominio
             set { _hasta = value; }
         }
 
+        public PagoRecurrente() : base() { }
+
         public PagoRecurrente(MetodoPago metodoPago, TipoGasto tipoGasto, Usuario usuario, string descripcion, decimal monto, DateTime desde, DateTime hasta) : base(metodoPago, tipoGasto, usuario, descripcion, monto)
         {
             Desde = desde;
             Hasta = hasta;
         }
 
-        public override decimal CalcularMontoTotal(Pago pago) //ToDo
+        public override decimal CalcularMontoTotal()
         {
-            return 0m;
+            decimal montoAjustado = Monto;
+
+            int cuotas = ((Hasta.Year - Desde.Year) * 12) + (Hasta.Month - Desde.Month) + 1;
+
+            if (cuotas > 10)
+                montoAjustado *= 1.10m;
+            else if (cuotas >= 6)
+                montoAjustado *= 1.05m;
+            else
+                montoAjustado *= 1.03m;
+
+            return montoAjustado;
+        }
+
+        public void NormalizarRango()
+        {
+            if (Hasta.Year == new DateTime().Year)
+            {
+                Hasta = new DateTime(2100, 12, 31);
+            }
         }
 
         public override string ToString()
@@ -48,6 +69,10 @@ namespace Dominio
         public override void Validar()
         {
             base.Validar();
+            if (Desde == DateTime.MinValue)
+            {
+                throw new Exception("La fecha de inicio no no puede ser vacías");
+            }
             if (Desde > Hasta && Hasta != new DateTime())
             {
                 throw new Exception("La fecha de la primera cuota debe ser menor a la de la siguiente o ultima");

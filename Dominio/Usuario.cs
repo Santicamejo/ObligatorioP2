@@ -1,6 +1,6 @@
 ﻿namespace Dominio
 {
-    public abstract class Usuario
+    public abstract class Usuario : IComparable<Usuario>
     {
 
         private string _nombre;
@@ -72,12 +72,18 @@
                 throw new Exception("El email no puede ser vacìo.");
         }
 
+        public abstract string ObtenerRol();
+
+
         public override string ToString()
         {
             return $"{Nombre} - {Email} - {Equipo}";
         }
 
-        public abstract string ObtenerRol();
+        public int CompareTo(Usuario otroU)
+        {
+            return Email.CompareTo(otroU.Email);
+        }
 
     }
 }
